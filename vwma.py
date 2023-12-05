@@ -122,6 +122,14 @@ def main():
         market_price = total_USDT / total_NDAU
         print(f'Total USDT {total_USDT}, total NDAU {total_NDAU}, average (market) price {market_price}')
 
+        #
+        #
+        # LAST BITTREX GLOBAL TRADE PRICE
+        market_price = 12.40
+        #
+        #
+        #
+
         NANOCENTSPERDOLLAR = 100000000000.0
         new_price = math.floor(market_price * NANOCENTSPERDOLLAR)
 
